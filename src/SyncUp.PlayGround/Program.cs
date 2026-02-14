@@ -55,15 +55,9 @@ while (page.HasValue)
         page = null;
 }
 
-foreach (var task in tasks.Where(t => t is { InitiativeTask: true }))
+foreach (var task in tasks.Where(t => t is { StatusName: Statuses.Queued, InitiativeTask: true }))
 {
-    Console.WriteLine($"Id: {task.Id}, Name: {task.Name}, " +
-                      $"Status: {task.StatusName}, " +
-                      $"Parent: {task.Parent}, " +
-                      $"Assignment: {task.AssignmentUsername}, " +
-                      $"Done Date: {task.DateDoneDateTime}, " +
-                      $"Closed Date: {task.DateClosedDateTime}, " +
-                      $"Due Date: {task.DueDateDateTime}");
+    Console.WriteLine($"Id: {task.Id}, Name: {task.Name}, Status: {task.StatusName} Parent: {task.Parent}");
 }
 
 foreach (var statusName in tasks.Select(t => t.StatusName).Distinct())
