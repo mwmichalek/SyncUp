@@ -1,5 +1,6 @@
 using System.Net;
 using FluentAssertions;
+using Xunit;
 
 namespace SyncUp.ClickUpApi.Tests.Models;
 

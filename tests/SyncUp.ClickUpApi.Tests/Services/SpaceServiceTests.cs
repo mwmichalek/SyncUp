@@ -2,6 +2,7 @@ using System.Net;
 using FluentAssertions;
 using SyncUp.ClickUpApi.Models.Requests;
 using SyncUp.ClickUpApi.Tests.Fixtures;
+using Xunit;
 
 namespace SyncUp.ClickUpApi.Tests.Services;
 

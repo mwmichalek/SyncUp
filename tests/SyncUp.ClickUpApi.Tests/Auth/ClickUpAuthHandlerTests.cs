@@ -3,6 +3,7 @@ using FluentAssertions;
 using Microsoft.Extensions.Options;
 using NSubstitute;
 using SyncUp.ClickUpApi.Auth;
+using Xunit;
 
 namespace SyncUp.ClickUpApi.Tests.Auth;
 

@@ -5,6 +5,7 @@ using SyncUp.ClickUpApi.Helpers;
 using SyncUp.ClickUpApi.Models;
 using SyncUp.ClickUpApi.Models.Requests;
 using SyncUp.ClickUpApi.Models.Responses;
+using Xunit;
 
 namespace SyncUp.ClickUpApi.Tests.Helpers;
 

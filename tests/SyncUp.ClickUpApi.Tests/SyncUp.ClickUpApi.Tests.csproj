@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SyncUp.ClickUpApi\SyncUp.ClickUpApi.csproj" />
+    <ProjectReference Include="..\..\src\SyncUp.ClickUpApi\SyncUp.ClickUpApi.csproj" />
   </ItemGroup>
 
 </Project>

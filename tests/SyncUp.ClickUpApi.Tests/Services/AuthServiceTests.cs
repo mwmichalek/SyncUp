@@ -1,6 +1,7 @@
 using System.Net;
 using FluentAssertions;
 using SyncUp.ClickUpApi.Tests.Fixtures;
+using Xunit;
 
 namespace SyncUp.ClickUpApi.Tests.Services;
 
